@@ -14,8 +14,8 @@ public class LoginTest {
         driver.manage().window().maximize();
 
         String filePath = "C:\\Users\\IG07\\Desktop\\test.xlsx";
-        String email = ExcelReader.getCellValue(filePath, "Sheet1", 1, 0);
-        String password = ExcelReader.getCellValue(filePath, "Sheet1", 1, 0);
+        String email = ExcelReader.getCellValue(filePath, "Sheet1",1,0);
+        String password = ExcelReader.getCellValue(filePath, "Sheet1",1,1);
 
         driver.get("http://dev.orextrade.com/login");
         
@@ -30,7 +30,7 @@ public class LoginTest {
 
 
         driver.findElement(By.name("email")).sendKeys(email);
-    	driver.findElement(By.name("password")).sendKeys("password");
+    	driver.findElement(By.name("password")).sendKeys(password);
     	
         Thread.sleep(2000);
         System.out.println("click on login button");
@@ -44,3 +44,4 @@ public class LoginTest {
         driver.quit();
     }
 }
+	

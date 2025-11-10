@@ -82,7 +82,7 @@ public class info {
 		System.out.println("City selected successfully.");
 
 		System.out.println("Adding contact information...");
-
+	//	C:\Users\Public\OREX PROJECT
 		WebElement mobileInput = driver.findElement(By.name("mobile"));
 		typeLikeHuman(mobileInput, "9876543021");
 
