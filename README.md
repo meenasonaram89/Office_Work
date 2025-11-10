@@ -47,7 +47,7 @@ With a goal-driven mindset and real-world project experience, I take pride in bu
 
 ---
 
-### 🌐 [API Testing – REST Assured Framework (In Progress)](https://github.com/meenasonaram89/APITesting)
+### [API Testing – REST Assured Framework (In Progress)](https://github.com/meenasonaram89/APITesting)
 **Tech Stack:** Java | REST Assured | TestNG  
 - Testing public REST APIs with **GET, POST, PUT, DELETE** methods.  
 - Validating **status codes**, **JSON responses**, and **schema**.  
@@ -69,6 +69,55 @@ With a goal-driven mindset and real-world project experience, I take pride in bu
 
 ---
 
+src/
+│
+├── main/java/
+│ ├── base/ # Browser setup
+│ ├── pages/ # Page Object Model classes
+│ └── utilities/ # Excel, Config, Helpers
+│
+├── test/java/
+│ ├── testcases/ # TestNG test files
+│ └── testdata/ # Excel sheets
+│
+├── reports/ # TestNG
+└── pom.xml # Maven dependencies
+
+
+
+---
+
+##Professional Goals
+- Build scalable automation frameworks for web and API testing  
+- Integrate Jenkins for CI/CD and automated test pipelines  
+- Improve test efficiency through reusability and modular design  
+- Stay updated with tools like Cypress, Playwright, and AI-driven testing  
+
+---
+
+## Soft Skills
+- Strong analytical and documentation skills  
+- Effective collaboration in Agile / Scrum environments  
+- Attention to detail and structured defect reporting  
+- Problem-solving and logical thinking mindset  
+
+---
+
+## Certifications
+- **Software Testing (Manual & Automation)** – Infinglobal, Ahmedabad  
+- **Java Programming Fundamentals** – Udemy  
+- **Postman API Testing Basics** – Postman Academy  
+
+---
+
+## Contact
+ **meenasonaram6@gmail.com**  
+ **[GitHub](https://github.com/meenasonaram89)**  
+ **[LinkedIn (https://www.linkedin.com/in/sonaram-meena-4027a3245/)]()**
+
+---
+
+> “Testing is not just finding bugs — it’s about preventing them and ensuring excellence.”
 
 
 
